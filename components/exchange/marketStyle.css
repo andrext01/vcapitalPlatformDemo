@@ -1,0 +1,81 @@
+.market-box {
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: black;
+}
+.contenedor {
+    padding: 20px;
+}
+.market-options {
+    display: flex;
+    margin-bottom: 20px;
+}
+.market-options span {
+    flex-grow: 1;
+}
+.market-options button {
+    flex-grow: 1;
+    height: 23px;
+    width: 30%;
+    color: white;
+    background: #70707085;
+    border: 0;
+    border-radius: 2px;
+    font-size: 10px;
+    /* font-weight: 600; */
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.quantity {
+    margin-top: 40px;
+}
+.quantity div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 17px;
+    margin-top: 15px;
+}
+.quantity span {
+    font-size: 13px;
+    /* color: #c5c5c5; */
+}
+.quantity input {
+    width: 100%;
+    border: 1px solid #aaaa;
+    border-radius: 2px;
+    background: #70707085;
+    color: white;
+    font-size: 11px;
+    height: 20px;
+}
+
+.buttons-box {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#buyButton {
+    height: 23px;
+    width: 35%;
+    color: white;
+    background: #0ab20a;
+    border: 0;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#sellButton {
+    height: 23px;
+    width: 35%;
+    color: white;
+    background: #e21717;
+    border: 0;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
